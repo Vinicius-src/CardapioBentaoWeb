@@ -9,9 +9,9 @@
         <h1 class="h2">Notícias</h1>
       </div>
       <h1 class="h5 mt-3  ">
-        Aqui você pode editar as noticias que aparecem na aba destaque do app.
+        Aqui você pode editar as notícias que aparecem na aba destaque do app.
         <br>
-        Observaçãos: so é possivel ter duas noticas por vez.
+        Observaçãos: so é possivel ter duas notícas por vez.
       </h1>
     </div>
   
