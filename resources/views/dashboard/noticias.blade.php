@@ -111,7 +111,7 @@
                   </div>
                   <div class="modal-body mx-auto py-5">
                     <p class="m-3">
-                      Realmente deseja <strong>remover</strong> essa notícia?
+                      Realmente deseja <strong>remover</strong> essa notícia? 
                     </p>
                     <img class="col-auto" src="{{$noticias[1]->link_banner}}" alt="banner noticias">
                   </div>
