@@ -11,7 +11,7 @@
       <h1 class="h5 mt-3  ">
         Aqui você pode editar as notícias que aparecem na aba destaque do app.
         <br>
-        Observaçãos: so é possivel ter duas notícas por vez.
+        Observaçãos: so é possivel ter duas notícias por vez.
       </h1>
     </div>
   
