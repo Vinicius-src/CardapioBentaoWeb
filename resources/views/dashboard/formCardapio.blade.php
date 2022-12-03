@@ -2,7 +2,14 @@
 
 @section('content')
  
-   
+<style>
+    #cardapio{
+    width: 100%;
+    border: solid 2px orange;
+    background-color: orange;
+    border-radius: 10px;
+    }
+</style>
     <div class="container mt-3">
     <form class="row" method="POST" action="{{route('formCardapio')}}">
         @csrf

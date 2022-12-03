@@ -1,6 +1,14 @@
 @extends('dashboard.dashboard')
 
 @section('content')
+<style>
+    #cadUSer{
+        width: 100%;
+    border: solid 2px orange;
+    border-radius: 10px;
+    background-color: orange;
+    }
+</style>
 <section class="col-12 col-sm-12  col-md-12 col-lg-9 col-xl-6 my-5 mx-auto py-1  mt-5" style="
 background-image:linear-gradient(to top, rgb(212, 138, 0), rgb(255, 247, 0)); border-radius:10px">
 

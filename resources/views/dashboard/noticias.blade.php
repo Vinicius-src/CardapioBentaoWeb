@@ -1,6 +1,14 @@
 @extends('dashboard.dashboard')
 
 @section('content')
+<style>
+  #noticias{
+      width: 100%;
+  border: solid 2px orange;
+  background-color: orange;
+  border-radius: 10px;
+  }
+</style>
   <div class="container-fluid my-4">
 
     <div class="container mb-5" >

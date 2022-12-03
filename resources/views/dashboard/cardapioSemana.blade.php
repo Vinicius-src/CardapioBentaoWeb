@@ -1,6 +1,15 @@
 @extends('dashboard.dashboard')
 
 @section('content')  
+
+<style>
+    #cardapio{
+    width: 100%;
+    border: solid 2px orange;
+    background-color: orange;
+    border-radius: 10px;
+    }
+</style>
     
     <div class="container-fluid px-4">
         <div class="container" >
@@ -66,7 +75,7 @@
                               <div class="modal-footer">
                                 <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Não</button>
                                 
-                                <form method="POST" action="{{ url('dashboard/cardapio/deletarCardapio/'.session("cardapio")[0]->id_cardapio)}}" style="display:inline">
+                                <form method="POST" action="{{ url('dashboard/cardapio/deletar/'.session("cardapio")[0]->id_cardapio)}}" style="display:inline">
                                     @method('delete')
                                     @csrf
                                     <button type="submit" class="btn btn-danger" >

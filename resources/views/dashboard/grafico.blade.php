@@ -1,6 +1,14 @@
 @extends('dashboard.dashboard')
 
 @section('content')
+<style>
+  #home{
+    width: 100%;
+    border: solid 2px orange;
+    background-color: orange;
+    border-radius: 10px;
+  }
+</style>
   
     <div class="container" >
       <div class="container" >
@@ -48,11 +56,13 @@
               },
               options: {
                 scales:{
-                  yAxes:[{
-                    tickes:{
-                      beginAtZero:true
+                  y: {
+                    min: 0,
+                    max: 5,
+                    ticks: {
+                        stepSize: 1
                     }
-                  }]
+                }
                 }            
              }
             });
